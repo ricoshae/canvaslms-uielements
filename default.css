@@ -1,0 +1,23 @@
+body {
+	background-color:#efefef;
+}
+
+.copythis
+{
+	background-color:#fff;
+	padding:10px;
+}
+
+
+.copybutton {
+	margin-top:10px;
+}
+
+h4
+{
+	border-top:1px solid #bbb;
+	margin-top:20px;
+	padding-top:20px;
+	font-size:larger;
+	font-weight:bold;
+}
