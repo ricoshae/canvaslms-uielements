@@ -1,52 +1,53 @@
 <html>
-<h3>Canvas UI elements</h3>
-<h4>3 card</h4>
-<div class="copythis">
-    <!-- Grid row Start -->
-    <div class="grid-row">
-        <div class="col-md-4" style="padding-bottom: 10px;">
-            <div class="border border-trbl border-round" style="height: 100%;">
-                <div class="pad-box">
-                    <h3>Heading</h3>
-                    <p>Content</p>
+
+<head>
+    <link rel="stylesheet" href="common-ddc28ab3b2.css" media="screen">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="ui-elements.js"></script>
+</head>
+
+<body class="pad-box">
+    <h3>Canvas UI elements</h3>
+    <h4>3 card</h4>
+    <div class="copythis">
+        <!-- Grid row Start -->
+        <div class="grid-row">
+            <div class="col-md-4" style="padding-bottom: 10px;">
+                <div class="border border-trbl border-round" style="height: 100%;">
+                    <div class="pad-box">
+                        <h3>Heading</h3>
+                        <p>Content</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" style="padding-bottom: 10px;">
+                <div class="border border-trbl border-round" style="height: 100%;">
+                    <div class="pad-box">
+                        <h3>Heading</h3>
+                        <p>Content</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" style="padding-bottom: 10px;">
+                <div class="border border-trbl border-round" style="height: 100%;">
+                    <div class="pad-box">
+                        <h3>Heading</h3>
+                        <p>Content</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-4" style="padding-bottom: 10px;">
-            <div class="border border-trbl border-round" style="height: 100%;">
-                <div class="pad-box">
-                    <h3>Heading</h3>
-                    <p>Content</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4" style="padding-bottom: 10px;">
-            <div class="border border-trbl border-round" style="height: 100%;">
-                <div class="pad-box">
-                    <h3>Heading</h3>
-                    <p>Content</p>
-                </div>
-            </div>
-        </div>
+        <!-- Grid row End -->
     </div>
-    <!-- Grid row End -->
-</div>
-<hr>
-<h4>Bordered box</h4> div class="copythis">
-<!-- Border Box Start -->
-<div class="pad-box border border-trbl border-round" style="height: 100%;">
-    <p>Content</p>
-</div>
-<!-- Border Box End -->
-</div>
-<p>asd</p>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script>
-/* * @Author: Greg Bird (@BirdyOz, greg.bird.oz@gmail.com) * @Date:   2018-08-15 13:49:53 * @Last Modified by:   Greg Bird * @Last Modified time: 2018-08-15 14:17:39 */
-$(function() { $('.copythis').after('<button type="button" class="btn btn-light btn-sm copybutton"><i class="fa fa-clipboard" aria-hidden="true"></i> Copy code</button>');
-            $('.copybutton').on('click', function(event) { var btn = $(this); var snippet = btn.prev().html();
-                        console.log("@GB: snippet = ", snippet);
-                        copyTextToClipboard(snippet);
-</script>
+    <hr>
+    <h4>Bordered box</h4>
+    <div class="copythis">
+        <!-- Border Box Start -->
+        <div class="pad-box border border-trbl border-round"  style="padding-bottom: 10px;">
+            <p>Content</p>
+        </div>
+        <!-- Border Box End -->
+    </div>
+</body>
 
 </html>
